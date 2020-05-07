@@ -1,0 +1,128 @@
+.Sidebar ul {
+    list-style: none;
+    padding: 1em;
+}
+
+.Sidebar ul li {
+    cursor: pointer;
+    box-sizing: border-box;
+    color: #006400;
+}
+
+.Sidebar ul li.selected label {
+    font-weight: 800;
+}
+
+.Sidebar li {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 1em;
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #76b852;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    
+}
+
+.SidebarFilter {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Sidebar label li {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.Sidebar input {
+    background: #76b852;  /* fallback for old browsers */
+    font-family:'Fredericka the Great', cursive;
+    font-size:px;
+}
+
+.Sidebar label {
+    color: #006400;
+    font-weight: 600;
+}
+
+.Sidebar div {
+    color: #006400;
+    font-weight: 600;
+}
+
+#FoursquareLogoImage {
+    height: 10px;
+    width: 150px;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+  }
+  
+@media only screen and (max-width: 800px) {
+
+    .Sidebar label {
+        font-size: 3vw;
+    }
+
+    .Sidebar input{
+        width: 50%;
+    }
+
+    .Sidebar ul {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .Sidebar li {
+        width: 100%;
+        padding: .5em;
+    }
+
+    .Sidebar h2 {
+        padding: 0px;
+    }
+
+    #FoursquareLogoImage {
+        height: 10px;
+        width: 150px;
+        margin-left: 150px;
+    }
+}
+
+    @media only screen and (max-width: 400px) {
+
+        .Sidebar label {
+            font-size: 5vw;
+        }
+    
+        .Sidebar input{
+            width: 50%;
+        }
+    
+        .Sidebar ul {
+            text-align: center;
+            font-size: 5vw;
+        }
+    
+        .Sidebar li {
+            width: 100%;
+            padding: .5em;
+        }
+    
+        /*.Sidebar h2 {
+            padding: 0px;
+        }*/
+    
+        #FoursquareLogoImage {
+            height: 10px;
+            width: 150px;
+            margin-left: 100px;
+        }
+    }

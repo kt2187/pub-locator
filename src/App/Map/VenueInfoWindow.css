@@ -1,0 +1,7 @@
+.VenueInfoWindow-name {
+    font-weight: bold;
+}
+
+.VenueInfoWindow-loading, .VenueInfoWindow-error {
+    color: #afafaf;
+}
