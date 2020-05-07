@@ -1,9 +1,9 @@
-# FEND Project 7 - Neighborhood Map
+# Neighborhood Pub Map
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Overview
-This project was developed for the Udacity Front End Nano-Degree program. This neighborhood map project uses React along with some APIs and other external dependencies and tools including:
+This project was developed for the Udacity Front End Nano-Degree program and is in the process of being updated. This neighborhood map project uses React along with some APIs and other external dependencies and tools including:
 
 * Google Maps API
 * FourSquare API
