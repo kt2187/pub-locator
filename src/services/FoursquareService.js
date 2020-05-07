@@ -1,5 +1,5 @@
 import { HTTP } from '../util';
-import { foursquare as config } from '../config';
+import { foursquare as config } from '../config/config.js';
 
 export default class FoursquareService {
 

@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withScriptjs, withGoogleMap, GoogleMap } from 'react-google-maps';
 
-import { googleApiKey } from '../../config';
+import { googleApiKey } from '../../config/config.js';
 import VenueMarker from './VenueMarker';
 
 const Map = withScriptjs(withGoogleMap(props => (
     <GoogleMap
-        defaultCenter={{lat: 41.8787, lng: -71.3826}}
+        defaultCenter={{ lat: 41.8787, lng: -71.3826 }}
         defaultZoom={13}
     >
         {props.venues && props.venues.map(venue => (
@@ -55,9 +55,9 @@ export default class extends Component {
     render() {
         return (
             <Map
-                role="application"  
+                role="application"
                 aria-label="google map"
-                a   
+                a
                 {...this.props}
                 loadingElement={<div className="Map-loading" />}
                 containerElement={<div className="Map" />}
